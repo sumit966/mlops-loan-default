@@ -1,0 +1,40 @@
+{
+  "best_model": "logistic_regression",
+  "auc_roc": 0.8009121340252419,
+  "features": [
+    "age",
+    "income",
+    "loan_amount",
+    "credit_score",
+    "employment_years",
+    "num_previous_loans",
+    "has_mortgage",
+    "num_dependents",
+    "loan_to_income",
+    "credit_per_year",
+    "risk_score"
+  ],
+  "all_results": {
+    "logistic_regression": {
+      "accuracy": 0.748,
+      "precision": 0.7624434389140271,
+      "recall": 0.6962809917355371,
+      "f1": 0.7278617710583153,
+      "auc_roc": 0.8009121340252419
+    },
+    "random_forest": {
+      "accuracy": 0.737,
+      "precision": 0.7517084282460137,
+      "recall": 0.6818181818181818,
+      "f1": 0.7150595882990249,
+      "auc_roc": 0.7818906560317765
+    },
+    "xgboost": {
+      "accuracy": 0.746,
+      "precision": 0.7637614678899083,
+      "recall": 0.6880165289256198,
+      "f1": 0.7239130434782609,
+      "auc_roc": 0.7838426548785957
+    }
+  }
+}
